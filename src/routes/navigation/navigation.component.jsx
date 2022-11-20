@@ -1,3 +1,4 @@
+import React from 'react';
 import { Fragment } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 
@@ -17,7 +18,7 @@ const Navigation = () => {
                 </Link>
             </div>
             <div className='nav-links-container'>
-                <Link className='nav-link' to={'/sign-in'}>
+                <Link className='nav-link' to={'/auth'}>
                 SIGN IN 
                 </Link>
             </div>
